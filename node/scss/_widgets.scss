@@ -1,0 +1,48 @@
+.imgGrid{
+	margin: 30px 0;
+	
+	h1, h2{
+		text-align: center;
+		font-weight: bold;
+		font-family: $headerFontStack;
+		padding:5px 0;
+		text-transform: uppercase;
+	}
+	
+	
+	h1{
+		font-size: 5rem;
+		margin:0 auto 50px;
+		width:$col9;
+		border-bottom:1px solid $keyline;
+	}
+	
+	.gridWrapper{
+		overflow: hidden;	
+	}
+	
+	&.grid3{
+		
+		.entry{
+			float:left;
+			width:$col4;
+			margin-right: $colMargin;
+			
+			img{
+				border:1px solid $keyline;
+				max-width: 300px;
+				width:100%;
+				margin:auto;
+				display: block;
+				padding:5px;
+			}
+			
+			
+		}
+		
+		.entry:nth-child(3n){
+			margin-right:0;
+		}
+	}
+	
+}

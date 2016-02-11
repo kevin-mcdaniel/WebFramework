@@ -1,0 +1,295 @@
+@import "constants";
+@import "cssReset";
+@import "widgets";
+*{
+	box-sizing: border-box;	
+}
+
+.pageGutter{
+	padding:10px;
+	margin:0 40px;
+	overflow:hidden;
+}
+
+body{
+    font: $bodyFontSize $bodyFontStack;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font: bold $headerFontStack;
+}
+
+h1{
+    font-size:$h1FontSize;
+}
+
+h2{
+    font-size:$h2FontSize;
+}
+
+h3{
+    font-size:$h3FontSize;
+}
+
+h4{
+    font-size:$h4FontSize;
+}
+
+h5{
+    font-size:$h5FontSize;
+}
+
+h6{
+    font-size:$h6FontSize;
+}
+
+/*--- Styleguide specific classes, can be removed ---*/
+.colorSwatch{
+    text-align:center;
+    float:left;
+    margin-right:10px;
+
+    div{
+        width:100px;
+        height:100px;
+        margin:auto;
+    }
+}
+
+
+.mainBody{
+    width:82.7%;
+    margin-right: 3.8%;
+    float:left;
+}
+
+.sideBar{
+    width:13.5%;
+    float:left;
+}
+
+.entry{
+    margin:30px 0;
+    overflow:hidden;
+    
+    h1, h2{
+        border-bottom: 1px solid $keyline;
+        padding-bottom: 3px;
+        margin-bottom: 10px;
+    }
+
+
+    .typography h1, .typography h2{
+        border:none;
+        padding-bottom:0;
+        margin:0;
+        
+        .typography span{
+            padding-left: 10px;
+        }
+    }
+    
+    .description{
+        font-weight: normal;
+        font-size:$bodyFontSize;
+        font-style: italic;
+    }
+    
+    
+    
+    .colWidths{
+        border:1px solid $keyline;
+    }
+
+}
+
+.bc1{
+	background-color:$brandColor1;
+}
+
+.bc2{
+	background-color:$brandColor2;
+}
+
+.bc3{
+	background-color:$brandColor3;
+}
+
+.kl{
+    background-color:$keyline;
+}
+
+.tc{
+	background-color:$textColor;
+}
+
+.lnk{
+	background-color:$link;
+}
+
+.lnkHover{
+    background-color:$hover;
+}
+
+/* --- These styles are simply to display the column widths in the style guide. The whole point of this system is to avoid the use of classes strictly for width so don't use these ---*/
+
+.col1{
+    width:$col1;
+    padding:5px 0;
+    margin:5px 0;
+    border:1px solid $keyline;
+}
+.col2{
+    width:$col2;
+    padding:5px 0;
+    margin:5px 0;
+    border:1px solid $keyline;
+}
+.col3{
+    width:$col3;
+    padding:5px 0;
+    margin:5px 0;
+    border:1px solid $keyline;
+}
+.col4{
+    width:$col4;
+    padding:5px 0;
+    margin:5px 0;
+    border:1px solid $keyline;
+}
+.col5{
+    width:$col5;
+    padding:5px 0;
+    margin:5px 0;
+    border:1px solid $keyline;
+}
+.col6{
+    width:$col6;
+    padding:5px 0;
+    margin:5px 0;
+    border:1px solid $keyline;
+}
+.col7{
+    width:$col7;
+    padding:5px 0;
+    margin:5px 0;
+    border:1px solid $keyline;
+}
+.col8{
+    width:$col8;
+    padding:5px 0;
+    margin:5px 0;
+    border:1px solid $keyline;
+}
+
+.col9{
+    width:$col9;
+    padding:5px 0;
+    margin:5px 0;
+    border:1px solid $keyline;
+}
+
+.col10{
+    width:$col10;
+    padding:5px 0;
+    margin:5px 0;
+    border:1px solid $keyline;
+}
+.col11{
+    width:$col11;
+    padding:5px 0;
+    margin:5px 0;
+    border:1px solid $keyline;
+}
+.col12{
+    width:$col12;
+    padding:5px 0;
+    margin:5px 0;
+    border:1px solid $keyline;
+}
+.fiveUp{
+    width:$fiveUp;
+    padding:5px 0;
+    margin:5px 0;
+    border:1px solid $keyline;
+}
+
+.breakpoints{
+    h3{
+        margin:20px 0;
+    }
+}
+
+.queries div{
+    padding:5px 0 5px 50px;
+}
+
+/*Desktop Breakpoints*/
+
+.desktopLarge{
+    background:$keyline;
+    text-align: center;    
+}
+
+.desktopSmallMax{
+    width:$desktopSmallMax;
+    background: #222;
+}
+
+.desktopSmallMin{
+    width:$desktopSmallMin;
+    margin:auto;
+    text-align: center;
+    background: $keyline
+}
+
+/* Tablet Breakpoints */
+.tabletLargeMax{
+    width:$tabletLargeMax;
+    background: #222;
+}
+
+.tabletLargeMin{
+    width:$tabletLargeMin;
+    margin:auto;
+    text-align: center;
+    background: $keyline
+}
+
+
+.tabletSmallMax{
+    width:$tabletSmallMax;
+    background: #222;
+}
+
+.tabletSmallMin{
+    width:$tabletSmallMin;
+    margin:auto;
+    text-align: center;
+    background: $keyline
+}
+
+/* Mobile Breakpoints */
+.mobileLargeMax{
+    width:$mobileLargeMax;
+    background: #222;
+}
+
+.mobileLargeMin{
+    width:$mobileLargeMin;
+    margin:auto;
+    text-align: center;
+    background: $keyline
+}
+
+.mobileSmallMax{
+    width:$mobileSmallMax;
+    text-align: center;
+    background: $keyline
+}
+
+
+
+
+
+/*--- Styleguide specific classes, can be removed ---*/

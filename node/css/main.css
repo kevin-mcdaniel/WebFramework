@@ -1,0 +1,310 @@
+/* Grid */
+/* Breakpoints */
+/* Typography */
+/* Brand Colors - names should be set to something more meaningful */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.imgGrid {
+  margin: 30px 0; }
+  .imgGrid h1, .imgGrid h2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    padding: 5px 0;
+    text-transform: uppercase; }
+  .imgGrid h1 {
+    font-size: 5rem;
+    margin: 0 auto 50px;
+    width: 74.05%;
+    border-bottom: 1px solid #cecece; }
+  .imgGrid .gridWrapper {
+    overflow: hidden; }
+  .imgGrid.grid3 .entry {
+    float: left;
+    width: 30.8%;
+    margin-right: 3.8%; }
+    .imgGrid.grid3 .entry img {
+      border: 1px solid #cecece;
+      max-width: 300px;
+      width: 100%;
+      margin: auto;
+      display: block;
+      padding: 5px; }
+  .imgGrid.grid3 .entry:nth-child(3n) {
+    margin-right: 0; }
+
+* {
+  box-sizing: border-box; }
+
+.pageGutter {
+  padding: 10px;
+  margin: 0 40px;
+  overflow: hidden; }
+
+body {
+  font: 16px Arial, sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font: bold Arial, sans-serif; }
+
+h1 {
+  font-size: 3rem; }
+
+h2 {
+  font-size: 2.5rem; }
+
+h3 {
+  font-size: 2.2rem; }
+
+h4 {
+  font-size: 1.9rem; }
+
+h5 {
+  font-size: 1.7rem; }
+
+h6 {
+  font-size: 1.5rem; }
+
+/*--- Styleguide specific classes, can be removed ---*/
+.colorSwatch {
+  text-align: center;
+  float: left;
+  margin-right: 10px; }
+  .colorSwatch div {
+    width: 100px;
+    height: 100px;
+    margin: auto; }
+
+.mainBody {
+  width: 82.7%;
+  margin-right: 3.8%;
+  float: left; }
+
+.sideBar {
+  width: 13.5%;
+  float: left; }
+
+.entry {
+  margin: 30px 0;
+  overflow: hidden; }
+  .entry h1, .entry h2 {
+    border-bottom: 1px solid #cecece;
+    padding-bottom: 3px;
+    margin-bottom: 10px; }
+  .entry .typography h1, .entry .typography h2 {
+    border: none;
+    padding-bottom: 0;
+    margin: 0; }
+    .entry .typography h1 .typography span, .entry .typography h2 .typography span {
+      padding-left: 10px; }
+  .entry .description {
+    font-weight: normal;
+    font-size: 16px;
+    font-style: italic; }
+  .entry .colWidths {
+    border: 1px solid #cecece; }
+
+.bc1 {
+  background-color: #9B0701; }
+
+.bc2 {
+  background-color: #3D4C62; }
+
+.bc3 {
+  background-color: #707070; }
+
+.kl {
+  background-color: #cecece; }
+
+.tc {
+  background-color: #212121; }
+
+.lnk {
+  background-color: #0553bf; }
+
+.lnkHover {
+  background-color: #0f2245; }
+
+/* --- These styles are simply to display the column widths in the style guide. The whole point of this system is to avoid the use of classes strictly for width so don't use these ---*/
+.col1 {
+  width: 4.85%;
+  padding: 5px 0;
+  margin: 5px 0;
+  border: 1px solid #cecece; }
+
+.col2 {
+  width: 13.5%;
+  padding: 5px 0;
+  margin: 5px 0;
+  border: 1px solid #cecece; }
+
+.col3 {
+  width: 22.15%;
+  padding: 5px 0;
+  margin: 5px 0;
+  border: 1px solid #cecece; }
+
+.col4 {
+  width: 30.8%;
+  padding: 5px 0;
+  margin: 5px 0;
+  border: 1px solid #cecece; }
+
+.col5 {
+  width: 39.45%;
+  padding: 5px 0;
+  margin: 5px 0;
+  border: 1px solid #cecece; }
+
+.col6 {
+  width: 48.1%;
+  padding: 5px 0;
+  margin: 5px 0;
+  border: 1px solid #cecece; }
+
+.col7 {
+  width: 56.75%;
+  padding: 5px 0;
+  margin: 5px 0;
+  border: 1px solid #cecece; }
+
+.col8 {
+  width: 65.4%;
+  padding: 5px 0;
+  margin: 5px 0;
+  border: 1px solid #cecece; }
+
+.col9 {
+  width: 74.05%;
+  padding: 5px 0;
+  margin: 5px 0;
+  border: 1px solid #cecece; }
+
+.col10 {
+  width: 82.7%;
+  padding: 5px 0;
+  margin: 5px 0;
+  border: 1px solid #cecece; }
+
+.col11 {
+  width: 91.35%;
+  padding: 5px 0;
+  margin: 5px 0;
+  border: 1px solid #cecece; }
+
+.col12 {
+  width: 100%;
+  padding: 5px 0;
+  margin: 5px 0;
+  border: 1px solid #cecece; }
+
+.fiveUp {
+  width: 16.96%;
+  padding: 5px 0;
+  margin: 5px 0;
+  border: 1px solid #cecece; }
+
+.breakpoints h3 {
+  margin: 20px 0; }
+
+.queries div {
+  padding: 5px 0 5px 50px; }
+
+/*Desktop Breakpoints*/
+.desktopLarge {
+  background: #cecece;
+  text-align: center; }
+
+.desktopSmallMax {
+  width: 1175px;
+  background: #222; }
+
+.desktopSmallMin {
+  width: 1025px;
+  margin: auto;
+  text-align: center;
+  background: #cecece; }
+
+/* Tablet Breakpoints */
+.tabletLargeMax {
+  width: 1024px;
+  background: #222; }
+
+.tabletLargeMin {
+  width: 801px;
+  margin: auto;
+  text-align: center;
+  background: #cecece; }
+
+.tabletSmallMax {
+  width: 800px;
+  background: #222; }
+
+.tabletSmallMin {
+  width: 641px;
+  margin: auto;
+  text-align: center;
+  background: #cecece; }
+
+/* Mobile Breakpoints */
+.mobileLargeMax {
+  width: 640px;
+  background: #222; }
+
+.mobileLargeMin {
+  width: 481px;
+  margin: auto;
+  text-align: center;
+  background: #cecece; }
+
+.mobileSmallMax {
+  width: 480px;
+  text-align: center;
+  background: #cecece; }
+
+/*--- Styleguide specific classes, can be removed ---*/

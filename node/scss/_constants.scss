@@ -1,0 +1,49 @@
+/* Grid */
+$col1:4.85%;
+$col2:13.5%;
+$col3:22.15%;
+$col4:30.8%;
+$col5:39.45%;
+$col6:48.1%;
+$col7:56.75%;
+$col8:65.4%;
+$col9:74.05%;
+$col10:82.7%;
+$col11:91.35%;
+$col12:100%;
+$fiveUp:16.96%;
+$colMargin: 3.8%;
+
+/* Breakpoints */
+
+$desktopLargeMin:1176px;
+$desktopSmallMin:1025px;
+$desktopSmallMax:1175px;
+$tabletLargeMax:1024px;
+$tabletLargeMin:801px;
+$tabletSmallMax:800px;
+$tabletSmallMin:641px;
+$mobileLargeMax:640px;
+$mobileLargeMin:481px;
+$mobileSmallMax:480px;
+
+/* Typography */
+$bodyFontStack: Arial, sans-serif;
+$headerFontStack:Arial, sans-serif;
+$textColor:#212121;
+$bodyFontSize:16px;
+$h1FontSize:3rem;
+$h2FontSize:2.5rem;
+$h3FontSize:2.2rem;
+$h4FontSize:1.9rem;
+$h5FontSize:1.7rem;
+$h6FontSize:1.5rem;
+
+
+/* Brand Colors - names should be set to something more meaningful */
+$brandColor1:#9B0701;
+$brandColor2: #3D4C62;
+$brandColor3:#707070;
+$link: #0553bf;
+$hover: #0f2245;
+$keyline: #cecece;

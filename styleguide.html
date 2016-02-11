@@ -1,0 +1,127 @@
+<!--DOCTYPE html-->
+<html>
+<head>
+<title>Style Guide</title>
+<link href='https://fonts.googleapis.com/css?family=Muli:400,400italic|Average' rel='stylesheet' type='text/css' />
+<link href="node/css/main.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+
+<div class="pageGutter">
+    <div class="header">
+        
+    <img src="img/styleguide/logo.jpg" />
+    </div>
+    <div class="mainBody">
+        <div class="entry">
+        <h2>Headers</h2>
+            <div class="typography">
+            <h1>This is a H1<span class="description">(Arial font-weight:bold; font-size:3rem;)</span></h1>
+            <h2>This is a H2<span class="description">(Arial font-weight:bold; font-size:2.5rem;)</span></h2>
+            <h3>This is a H3<span class="description">(Arial font-weight:bold; font-size:2.2rem;)</span></h3>
+            <h4>This is a H4<span class="description">(Arial font-weight:bold; font-size:1.9rem;)</span></h4>
+            <h5>This is a H5<span class="description">(Arial font-weight:bold; font-size:1.7rem;)</span></h5>
+            <h6>This is a H6<span class="description">(Arial font-weight:bold; font-size:1.5rem;)</span></h6>
+            </div>
+        </div>
+        <div class="entry">
+            <h2>Text Example</h2>
+            And now abating in his flurry, the whale once more rolled out into view; surging from side to side; spasmodically dilating and contracting his spout-hole, with sharp, cracking, agonized respirations. At last, gush after gush of clotted red gore, as if it had been the purple lees of red wine, shot into the frighted air; and falling back again, ran dripping down his motionless flanks into the sea. His heart had burst!
+            <p class="description">(Arial font-size: 1rem(16px);)</p>
+        </div>
+        <div class="entry">
+            <h2>Brand Colors</h2>
+            <div class="colorSwatch">
+                <div class="bc1"></div>
+                Brand Color 1
+            </div>
+            <div class="colorSwatch">
+                <div class="bc2"></div>
+                Brand Color 2
+            </div>
+            <div class="colorSwatch">
+                <div class="bc3"></div>
+                Brand Color 3
+            </div>
+            <div class="colorSwatch">
+                <div class="tc"></div>
+                Text Color
+            </div>
+            <div class="colorSwatch">
+                <div class="lnk"></div>
+                Link Color
+            </div>
+            <div class="colorSwatch">
+                <div class="lnkHover"></div>
+                Link Hover Color
+            </div>
+            <div class="colorSwatch">
+                <div class="kl"></div>
+                Keyline Color
+            </div>
+        </div>
+        
+        <div class="entry">
+            <h2>Column Widths<span class="description">(margin-right:3.8%;)</span></h2>
+            <div class="col1">Col 1 - 4.85%</div>
+            <div class="col2">Col 2 - 13.5%</div>
+            <div class="col3">Col 3 - 22.15%</div>
+            <div class="col4">Col 4 - 30.8%</div>
+            <div class="col5">Col 5 - 39.45%</div>
+            <div class="col6">Col 6 - 48.1%</div>
+            <div class="col7">Col 7 - 56.75%</div>
+            <div class="col8">Col 8 - 65.4%</div>
+            <div class="col9">Col 9 - 74.05%</div>
+            <div class="col10">Col 10 - 82.7%</div>
+            <div class="col11">Col 11 - 91.35%</div>
+            <div class="col12">Col 12 - 100%</div>
+            <div class="fiveUp">fiveCol Grid - 16.96%</div>
+            
+            
+            
+            
+        </div>
+        
+        <div class="entry breakpoints">
+            <h2>Media Breakpoints</h2>
+
+            <h3>Large Desktop</h3>
+            <div class="desktopLarge">Maximum: 100% - Minimum: 1175px</div>
+            <h3>Desktop Small</h3>
+            <div class="desktopSmallMax"><div class="desktopSmallMin">Maximum : 1175px - Minimum: 1025px</div></div>
+            <h3>Tablet Large</h3>
+            <div class="tabletLargeMax"><div class="tabletLargeMin">Maximum : 1024px - Minimum: 801px</div></div>
+            <h3>Tablet Small</h3>
+            <div class="tabletSmallMax"><div class="tabletSmallMin">Maximum : 800px - Minimum: 641px</div></div>
+            <h3>Mobile Large</h3>
+            <div class="mobileLargeMax"><div class="MobileLargeMin">Maximum : 640px - Minimum: 481px</div></div>
+            <h3>Mobile Small </h3>
+            <div class="mobileSmallMax"> Maximum : 480px - Minimum: 0% </div>
+          
+        </div>
+        <div class="entry queries">
+            <h2>Media Queries</h2>
+            <h3>All Desktop</h3>
+            <div>@media (min-width: $desktopSmallMin)</div>
+            <h3>Desktop Large</h3>
+            <div>@media (min-width: $desktopLargeMin)</div>
+            <h3>Desktop Small</h3>
+            <div>@media (max-width: $desktopSmallMax) and (min-width: $desktopSmallMin)</div>
+            <h3>All Tablet</h3>
+            <div>@media (max-width: $tabletLargeMax) and (min-width: $tabletSmallMin)</div>
+            <h3>Tablet Large</h3>
+            <div>@media (max-width: $tabletLargeMax) and (min-width: $tabletLargeMin)</div>
+            <h3>Tablet Small</h3>
+            <div>@media (max-width: $tabletSmallMax) and (min-width: $tabletSmallMin)</div>
+            <h3>All Mobile</h3>
+            <div>@media (max-width: $mobileLargeMax)</div>
+            <h3>Tablet Large</h3>
+            <div>@media (max-width: $mobileLargeMax) and (min-width: $mobileLargeMin)</div>
+            <h3>Tablet Small</h3>
+            <div>@media (max-width: $$mobileSmallMax)</div>
+        </div>
+    </div>
+
+</div>
+</body>
